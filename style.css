@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: #596475;
+    color:#FDE8E9;
+    justify-content: center;
+}
+.title{
+    width: 100%;
+    height:10vh;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:7vh;
+    font-weight: 300;
+    padding-top: 2vh;
+    text-shadow: 0px 0px 10px black ;
+
+}
+.choices{
+    width:100%;
+    height:40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10vh;
+}
+.choice{
+    height:20vh;
+    width:20vh;
+    border-radius: 50%;
+    background-color: #D7C9AA;
+}
+.choice:hover{
+    box-shadow: 0 0 15px rgb(129, 124, 124);
+}
+#Rock{
+    background-image: url("rock.png");
+    background-size:cover;
+    background-position: -40px;
+    background-repeat: no-repeat;
+}
+#Paper{
+    background-image: url("paper.png");
+    background-size:cover;
+    background-position: -40px;
+    background-repeat: no-repeat;
+}
+#Scissor{
+    background-image: url("scissor.jpg");
+    background-size:cover;
+    background-position: -45px;
+    background-repeat: no-repeat;
+}
+.text_div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10px;
+    height:10vh;
+}
+.computer{
+    padding-top: 2.5vh;
+    text-align: center;
+    height:8vh;
+    width: 40vb;
+    background-color: #BC9EC1;
+    font-size: larger;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+.res{
+ padding-top: 2.5vh;
+    text-align: center;
+    height:8vh;
+    width: 40vb;
+    background-color: #BC9EC1;
+    font-size: larger;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+}
+button{
+   padding-top: 2.5vh;
+    height:8vh;
+    width:20vh;
+    background-color: #1F2232;
+    text-align:center;
+    font-size:large;
+    font-weight: 300;
+    border:none;
+    color:#FDE8E9;
+    font-family: sans-serif;
+    border-radius: 10%;
+}
