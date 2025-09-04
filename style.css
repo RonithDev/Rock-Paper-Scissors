@@ -60,12 +60,12 @@ body{
     justify-content: center;
     align-items: center;
    margin-top: 10px;
-    height:10vh;
+    height:8vh;
 }
 .computer{
     padding-top: 2.5vh;
     text-align: center;
-    height:8vh;
+    height:7vh;
     width: 40vb;
     background-color: #BC9EC1;
     font-size: larger;
@@ -76,7 +76,7 @@ body{
 .res{
  padding-top: 2.5vh;
     text-align: center;
-    height:8vh;
+    height:7vh;
     width: 40vb;
     background-color: #BC9EC1;
     font-size: larger;
@@ -87,7 +87,7 @@ body{
 }
 button{
    padding-top: 2.5vh;
-    height:8vh;
+    height:7vh;
     width:20vh;
     background-color: #1F2232;
     text-align:center;
@@ -97,4 +97,52 @@ button{
     color:#FDE8E9;
     font-family: sans-serif;
     border-radius: 10%;
+}
+.AIs
+{
+    width:100%;
+    height:26vh;
+    display: flex;
+    position:relative;
+}
+.AI
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:18vh;
+    width:18vh;
+    border-radius: 50%;
+    background-color: #D7C9AA;
+    
+}
+#AIRock
+{
+    visibility: hidden;
+    background-image: url("rock.png");
+    background-size:cover;
+    background-position: -40px;
+    background-repeat: no-repeat;
+}
+#AIPaper
+{   visibility: hidden;
+    background-image: url("paper.png");
+    background-size:cover;
+    background-position: -40px;
+    background-repeat: no-repeat;
+}
+#AIScissor{
+    visibility:hidden;
+    background-image: url("scissor.jpg");
+    background-size:cover;
+    background-position: -45px;
+    background-repeat: no-repeat;
+}
+#Unknown
+{   visibility:visible;
+    background-image: url("ChatGPT\ Image\ Aug\ 31\,\ 2025\,\ 01_41_15\ PM.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
 }
